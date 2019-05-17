@@ -2,17 +2,18 @@
 
 #----------------------------------------------------------------------------------------------------------------
 
-#' @title Bioconductor's biocLite() sourcing wrapper
-#'
-#' @description Source bioconductor biocLite()
-#' @return Invisible
-#' @export
-#' @examples bioc_wrap()
-
-bioc_wrap <- function()
-{
-  source("https://bioconductor.org/biocLite.R")
-}
+# Deprecated
+# #' @title Bioconductor's biocLite() sourcing wrapper
+# #'
+# #' @description Source bioconductor biocLite()
+# #' @return Invisible
+# #' @export
+# #' @examples bioc_wrap()
+#
+# bioc_wrap <- function()
+# {
+#   source("https://bioconductor.org/biocLite.R")
+# }
 
 #----------------------------------------------------------------------------------------------------------------
 
