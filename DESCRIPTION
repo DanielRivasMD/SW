@@ -1,6 +1,6 @@
 Package: SistWrapper
 Title: Wrapper for R system functions
-Version: 0.0.3
+Version: 0.0.4
 Authors@R:
   person(given = "Daniel",
     family = "Rivas",
