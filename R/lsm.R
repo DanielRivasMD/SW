@@ -5,10 +5,9 @@
 #' @param f_object Object to inquiry about
 #' @return Object's methods
 #' @importFrom utils methods
-#' @export
 #' @examples x <- 1:100; lsm(x)
+#' @export
 
-lsm <- function(f_object)
-{
-  methods(class = class(f_object))
+lsm <- function(f_object) {
+	methods(class = class(f_object))
 }

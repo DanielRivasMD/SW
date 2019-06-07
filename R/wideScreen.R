@@ -4,11 +4,10 @@
 #' @description Uses full screen on interactive R sessions
 #' @param howWide Number of columns to widen the screen. Default system obtained measures for "full screen".
 #' @return Invisible
-#' @export
 #' @examples wideScreen()
+#' @export
 
-wideScreen <- function(howWide = NULL)
-{
+wideScreen <- function(howWide = NULL) {
 	if ( is.null(howWide) ){
 		howWide <- Sys.getenv("COLUMNS")
 	}
