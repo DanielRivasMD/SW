@@ -1,13 +1,13 @@
 Package: SistWrapper
 Title: Wrapper for R system functions
-Version: 0.0.4
+Version: 0.0.5
 Authors@R:
   person(given = "Daniel",
     family = "Rivas",
     role = c("aut", "cre"),
-    email = "daniel.rivas@imbim.uu.se")
+    email = "danielrivasmd@gmail.com")
 Description: This package contains wrappers to basic R system functions.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.2
