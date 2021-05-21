@@ -8,9 +8,9 @@
 #' @export
 
 wideScreen <- function(howWide = NULL) {
-	if ( is.null(howWide) ){
-		howWide <- Sys.getenv("COLUMNS")
-	}
-	if ( howWide == "" ) howWide <- getOption("width")
-	options(width = as.integer(howWide))
+  if ( is.null(howWide) ){
+    howWide <- Sys.getenv("COLUMNS")
+  }
+  if ( howWide == "" ) howWide <- getOption("width")
+  options(width = as.integer(howWide))
 }

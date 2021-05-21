@@ -4,10 +4,10 @@
 \alias{lsm}
 \title{Methods lister}
 \usage{
-lsm(f_object)
+lsm(fObject)
 }
 \arguments{
-\item{f_object}{Object to inquiry about}
+\item{fObject}{Object to inquiry about}
 }
 \value{
 Object's methods

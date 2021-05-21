@@ -4,14 +4,14 @@
 \alias{lsp}
 \title{Package lister}
 \usage{
-lsp(f_package, f_all.names = FALSE, f_pattern)
+lsp(fPackage, fAll.names = FALSE, fPattern)
 }
 \arguments{
-\item{f_package}{Package name}
+\item{fPackage}{Package name}
 
-\item{f_all.names}{Boolean. Default = F}
+\item{fAll.names}{Boolean. Default = F}
 
-\item{f_pattern}{Specify if a pattern is to be searched}
+\item{fPattern}{Specify if a pattern is to be searched}
 }
 \value{
 Package contents
