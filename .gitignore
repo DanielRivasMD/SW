@@ -1,4 +1,6 @@
-# Invisibles
-.DS_Store
+# invisibles
 .Rproj.user
 .Rbuildignore
+
+# deprecated
+deprecated
