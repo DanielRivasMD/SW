@@ -13,7 +13,7 @@ wideScreen(howWide = NULL)
 Invisible
 }
 \description{
-Uses full screen on interactive R sessions
+Use full screen on interactive R sessions
 }
 \examples{
 wideScreen()
