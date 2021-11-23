@@ -16,5 +16,5 @@ Object's methods
 List object methods
 }
 \examples{
-x <- 1:100; lsMethods(x)
+lsMethods(1:1000)
 }

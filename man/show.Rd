@@ -6,6 +6,9 @@
 \usage{
 show(tbl_df)
 }
+\arguments{
+\item{tbl_df}{Tibble to display}
+}
 \value{
 Invisible
 }
@@ -13,5 +16,5 @@ Invisible
 Show all tibble rows
 }
 \examples{
-show(tibble(iris))
+show(tibble::tibble(iris))
 }
