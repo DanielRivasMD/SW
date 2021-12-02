@@ -1,2 +1,2 @@
-# SistWrapper
+# SystWrapper
 Wrapper for native R functions
