@@ -1,13 +1,13 @@
 Package: SystWrapper
 Title: Wrapper for R system functions
-Version: 1.0
+Version: 2.0
 Authors@R:
   person(given = "Daniel",
     family = "Rivas",
     role = c("aut", "cre"),
     email = "danielrivasmd@gmail.com")
-Description: This package contains wrappers to basic R system functions.
+Description: This package contains wrappers for basic R system functions.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
