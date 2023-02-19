@@ -6,6 +6,9 @@
 \usage{
 isInstalled(pkg)
 }
+\arguments{
+\item{pkg}{Package name}
+}
 \value{
 Boolean
 }
@@ -13,5 +16,5 @@ Boolean
 Query whether package is installed
 }
 \examples{
-isInstalled('SystWrapper')
+       isInstalled('SystWrapper')
 }

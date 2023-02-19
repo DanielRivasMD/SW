@@ -20,5 +20,5 @@ Package contents
 List package contents
 }
 \examples{
-lsPkg(stats)
+       lsPkg(stats)
 }

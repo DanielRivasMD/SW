@@ -1,10 +1,10 @@
 
 #' @title Installed packages lister
 #'
-#' @description List installed packages
-#' @return List of packages
-#' @importFrom utils installed.packages
-#' @examples lsInstalled()
+#' @description     List installed packages
+#' @return          List of packages
+#' @importFrom      utils installed.packages
+#' @examples        lsInstalled()
 #' @export
 
 lsInstalled <- function() {

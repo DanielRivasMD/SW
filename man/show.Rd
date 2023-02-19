@@ -16,5 +16,5 @@ Invisible
 Show all tibble rows
 }
 \examples{
-show(tibble::tibble(iris))
+       show(tibble::tibble(iris))
 }

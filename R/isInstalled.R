@@ -1,11 +1,10 @@
 
 #' @title Installed package finder
 #'
-#' @description Query whether package is installed
-#' @return Boolean
-#' @importFrom SystWrapper lsInstalled
-#' @examples isInstalled('SystWrapper')
+#' @description     Query whether package is installed
 #' @param pkg       Package name
+#' @return          Boolean
+#' @examples        isInstalled('SystWrapper')
 #' @export
 
 isInstalled <- function(pkg) {

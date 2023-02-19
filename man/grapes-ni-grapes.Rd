@@ -18,5 +18,5 @@ Invisible
 Not in
 }
 \examples{
-10 \%ni\% 1:9
+       10 \%ni\% 1:9
 }

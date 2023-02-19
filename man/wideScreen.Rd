@@ -16,5 +16,5 @@ Invisible
 Use full screen on interactive R sessions
 }
 \examples{
-wideScreen()
+       wideScreen()
 }

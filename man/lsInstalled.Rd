@@ -13,5 +13,5 @@ List of packages
 List installed packages
 }
 \examples{
-lsInstalled()
+       lsInstalled()
 }

@@ -1,10 +1,10 @@
 
 #' @title Screen wider
 #'
-#' @description Use full screen on interactive R sessions
-#' @param howWide Number of columns to widen the screen. Default system obtained measures for "full screen".
-#' @return Invisible
-#' @examples wideScreen()
+#' @description     Use full screen on interactive R sessions
+#' @param howWide   Number of columns to widen the screen. Default system obtained measures for "full screen".
+#' @return          Invisible
+#' @examples        wideScreen()
 #' @export
 
 wideScreen <- function(howWide = NULL) {

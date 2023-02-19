@@ -1,12 +1,12 @@
 
 #' @title Package lister
 #'
-#' @description List package contents
+#' @description     List package contents
 #' @param package   Package name
 #' @param pattern   Specify if a pattern is to be searched
 #' @param all_names Boolean. Default = F
-#' @return Package contents
-#' @examples lsPkg(stats)
+#' @return          Package contents
+#' @examples        lsPkg(stats)
 #' @export
 
 lsPkg <- function(package, all_names = FALSE, pattern) {
