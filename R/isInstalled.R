@@ -5,6 +5,7 @@
 #' @return Boolean
 #' @importFrom SystWrapper lsInstalled
 #' @examples isInstalled('SystWrapper')
+#' @param pkg       Package name
 #' @export
 
 isInstalled <- function(pkg) {
