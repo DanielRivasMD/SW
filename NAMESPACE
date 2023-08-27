@@ -2,6 +2,8 @@
 
 export("%ni%")
 export(isInstalled)
+export(isloaded)
+export(loaded)
 export(lsInstalled)
 export(lsMethods)
 export(lsPkg)
