@@ -1,0 +1,5 @@
+# R project
+.*Rproj$
+
+# user data
+^\.Rproj\.user$
