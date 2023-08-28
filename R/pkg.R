@@ -6,9 +6,10 @@
 #'
 #' @param obj           Object to inquiry about
 #'
-#' @return              Object's methods
 #' @importFrom          utils methods
-#' @examples            lsMethods(1:1000)
+#' @return              Object's methods
+#'
+#' @examples lsMethods(1:1000)
 #'
 #' @rdname pkg
 #' @export
@@ -30,7 +31,8 @@ lsMethods <- function(obj) {
 #' @param all_names     Boolean. Default = FALSE
 #'
 #' @return              Package contents
-#' @examples            lsPkg(stats)
+#'
+#' @examples lsPkg(stats)
 #'
 #' @rdname pkg
 #' @export

@@ -10,7 +10,8 @@
 #' @param \ldots        Optional package names.  Adding package names will check their individual load status.
 #'
 #' @return              List of packages
-#' @examples            loaded()
+#'
+#' @examples loaded()
 #'
 #' @rdname loaded
 #' @export
@@ -57,7 +58,8 @@ loaded <- function(..., all = FALSE, char, char_only = FALSE) {
 #' \code{isLoaded} - Query whether package(s) is loaded.
 #'
 #' @return              Boolean
-#' @examples            isLoaded('stats')
+#'
+#' @examples isLoaded('stats')
 #'
 #' @rdname loaded
 #' @export

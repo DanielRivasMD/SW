@@ -6,7 +6,8 @@
 #'
 #' @return              List of packages
 #' @importFrom          utils installed.packages
-#' @examples            installed()
+#'
+#' @examples installed()
 #'
 #' @rdname installed
 #' @export
@@ -25,10 +26,11 @@ installed <- function() {
 
 #' \code{isInstalled} - Query whether package(s) is installed
 #'
-#' @param pkg       Package name
+#' @param pkg           Package name
 #'
-#' @return          Boolean
-#' @examples        isInstalled('stats')
+#' @return              Boolean
+#'
+#' @examples isInstalled('stats')
 #'
 #' @rdname installed
 #' @export

@@ -7,7 +7,8 @@
 #' @param tbl_df        Tibble to display
 #'
 #' @return              Invisible
-#' @examples            show(tibble::tibble(iris))
+#'
+#' @examples show(tibble::tibble(iris))
 #'
 #' @rdname display
 #' @export
@@ -26,7 +27,8 @@ show <- function(tbl_df) {
 #' @param howWide       Number of columns to widen the screen. Default system obtained measures for "full screen".
 #'
 #' @return              Invisible
-#' @examples            wideScreen()
+#'
+#' @examples wideScreen()
 #'
 #' @rdname display
 #' @export

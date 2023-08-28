@@ -2,13 +2,14 @@
 
 #' Check for Absence
 #'
-#' \code{%ni%}          Not in
+#' \code{\%ni\%}        Not in
 #'
 #' @param x             Object to check
 #' @param y             Object to check
 #'
 #' @return              Invisible
-#' @examples            10 %ni% 1:9
+#'
+#' @examples 10 %ni% 1:9
 #'
 #' @rdname check
 #' @export
