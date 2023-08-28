@@ -2,32 +2,35 @@
 % Please edit documentation in R/loaded.R
 \name{loaded}
 \alias{loaded}
-\alias{isloaded}
+\alias{isLoaded}
 \title{Check for Loaded Packages}
 \usage{
-loaded(..., all = FALSE, char, character.only = FALSE)
+loaded(..., all = FALSE, char, char_only = FALSE)
 
-isloaded(...)
+isLoaded(...)
 }
 \arguments{
-\item{all}{logical.  If \code{TRUE} will show all packages
-including base install; \code{FALSE} will show all packages
-excluding base install packages that install when R loads.}
+\item{all}{logical. If \code{TRUE} will show all packages including base install; \code{FALSE} will show all packages excluding base install packages that install when R loads.}
 
-\item{char}{Character vector containing packages to load.  If you are calling
-\code{loaded} from within a function (or just having difficulties calling it
-using a character vector input) then pass your character vector of packages
-to load to this parameter directly.}
+\item{char}{Character vector containing packages to load. If you are calling \code{loaded} from within a function (or just having difficulties calling it  using a character vector input) then pass your character vector of packages to load to this parameter directly.}
 
-\item{character.only}{logical. If \code{TRUE} then \code{loaded} will only
-accept a single input which is a character vector containing the names of
-packages to load.}
+\item{char_only}{logical. If \code{TRUE} then \code{loaded} will only accept a single input which is a character vector containing the names of packages to load.}
 
-\item{\ldots}{Optional package names.  Adding package names will check their
-individual load status.}
+\item{\ldots}{Optional package names.  Adding package names will check their individual load status.}
+}
+\value{
+List of packages
+
+Boolean
 }
 \description{
 \code{loaded} - Output is a character string of loaded packages.
 
-\code{isloaded} - Check if package(s) is loaded.
+\code{isLoaded} - Query whether package(s) is loaded.
+}
+\examples{
+loaded()
+
+isLoaded('stats')
+
 }
