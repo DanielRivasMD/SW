@@ -1,6 +1,6 @@
 Package: SystWrapper
 Title: Wrapper for R system functions
-Version: 2.2
+Version: 2.3
 Authors@R:
   person(given = "Daniel",
     family = "Rivas",
