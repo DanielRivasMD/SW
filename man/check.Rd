@@ -15,7 +15,7 @@ x \%ni\% y
 Invisible
 }
 \description{
-\code{\%ni\%}          Not in
+\code{\%ni\%}        Not in
 }
 \examples{
 10 \%ni\% 1:9
