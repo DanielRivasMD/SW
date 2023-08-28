@@ -38,7 +38,7 @@ installed <- function() {
 ####################################################################################################
 
 isInstalled <- function(pkg) {
-  if ( pkg %in% SystWrapper::installed()[, 'Package'] ) {
+  if ( pkg %in% SW::installed()[, 'Package'] ) {
     print(paste0('Package is installed: ', pkg))
   } else {
     print(paste0('Package is not installed: ', pkg))
