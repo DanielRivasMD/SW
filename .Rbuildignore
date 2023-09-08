@@ -3,3 +3,4 @@
 
 # user data
 ^\.Rproj\.user$
+^.*\.Rproj$
