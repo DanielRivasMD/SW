@@ -4,7 +4,7 @@
 \alias{doc}
 \title{Choose documentation viewer}
 \usage{
-doc(str)
+doc(str = NULL)
 }
 \arguments{
 \item{str}{Viewer}
