@@ -15,20 +15,20 @@
 
 ####################################################################################################
 
-doc <- function(str) {
+doc <- function(str = NULL) {
 
   # open help in commnad line viewer
-  if (str == '' | str == NULL) {
+  if (is.null(str)) {
     options(help_type = '')
     options(browser = '/usr/local/bin/bat')
 
   # open help in Firefox
-  } else if (str == 'firefox' | str == 'f') {
+  } else if (str == 'firefox' | str == 'f' | str == 'Firefox' | str == 'F') {
     options(help_type = 'html')
     options(browser = '/usr/bin/open -a "/Applications/Firefox.app"')
 
   # open help in Opera
-  } else if (str == 'opera' | str == 'o') {
+  } else if (str == 'opera' | str == 'o' | str == 'Opera' | str == 'O') {
     options(help_type = 'html')
     options(browser = '/usr/bin/open -a "/Applications/Opera.app"')
 
